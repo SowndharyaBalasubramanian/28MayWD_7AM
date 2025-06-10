@@ -24,6 +24,7 @@ public class Method_Returntype {
        int d = 4;
        int f = 6;
        System.out.println(d + f);
+
    }
 
 }
