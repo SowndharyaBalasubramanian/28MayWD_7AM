@@ -1,5 +1,8 @@
 package com.datatype;
 
+//import com.method.Private_Method;
+import com.method.Public_Method;
+
 public class Data_Type2 {
     public static void main(String[] args){
 
@@ -17,6 +20,11 @@ public class Data_Type2 {
 
         boolean isMajor = true;
         System.out.println(isMajor);
+
+        Public_Method p = new Public_Method();
+        p.read();
+
+       // Private_Method.eat();
 
     }
 }
