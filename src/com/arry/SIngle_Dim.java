@@ -27,3 +27,5 @@ public class SIngle_Dim {
         System.out.println(names.length);
     }
 }
+
+//for each loop memory address

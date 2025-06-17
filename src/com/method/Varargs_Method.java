@@ -18,12 +18,12 @@ public class Varargs_Method {
 //    }
 
     public static void sub(String...n){
-        for(String names : n){
-            System.out.print(names + " ");
+        for(String k : n){
+            System.out.print(k + " ");
         }
-        System.out.println();
 
-       // System.out.println(n);
+
+       System.out.println();
 
     }
 }
