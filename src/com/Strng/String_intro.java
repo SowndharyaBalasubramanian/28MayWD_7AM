@@ -8,6 +8,8 @@ public class String_intro {
 
         String subject = new String("Java");    // heap memory directly
         System.out.println(subject);
+
+
     }
 }
 
