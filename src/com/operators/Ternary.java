@@ -1,7 +1,7 @@
 package com.operators;
 
 public class Ternary {
-    public static void main(String[] args) {
+        public static void main(String[] args) {
         int age = 7;
 //        if(age >=18){
 //            System.out.println("major");

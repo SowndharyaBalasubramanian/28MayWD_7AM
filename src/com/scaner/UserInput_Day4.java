@@ -18,10 +18,20 @@ public class UserInput_Day4 {
 //        System.out.println("name entered : " + name1);
 
 
-        System.out.print("Enter your age");
-        byte age = scan.nextByte();
+//        System.out.print("Enter your age");
+//        byte age = scan.nextByte();
+//
+//        System.out.println("age entered : " + age);
 
-        System.out.println("age entered : " + age);
+
+
+//                System.out.println("Enter your word");
+//                String word = scan.next();
+//        System.out.println(word);
+
+        System.out.println("Enter your word");
+        String word1 = scan.nextLine();
+        System.out.println(word1);
 
         scan.close();
     }
