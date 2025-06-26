@@ -5,6 +5,7 @@ public class Bitwise {
 
         int a = 18;
         int b = 25;
+
         System.out.println(a & b);
         System.out.println(a | b);
         System.out.println( a ^ b);
@@ -23,6 +24,7 @@ public class Bitwise {
 
         int f = -12;
         System.out.println(f >> 2);
+
 
     }
 }
