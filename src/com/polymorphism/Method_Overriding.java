@@ -5,9 +5,12 @@ public class Method_Overriding {
 //        Parent p = new Parent();
 //        p.education();
 
-        Child c = new Child();
-        c.show();
-        c.education();
+//        Child c = new Child();
+//        c.show();
+//        c.education();
+
+        Parent parent = new Child();
+        parent.education();
 
     }
 }
