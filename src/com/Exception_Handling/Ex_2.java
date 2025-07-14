@@ -8,6 +8,8 @@ public class Ex_2 {
             System.out.println(arr[5]);
         }catch (ArrayIndexOutOfBoundsException e){
             System.out.println(e);
+        }catch(Exception ex){
+            System.out.println(ex);
         }
         System.out.println("terminated....");
 
