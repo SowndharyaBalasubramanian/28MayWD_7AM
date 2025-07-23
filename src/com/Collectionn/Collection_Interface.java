@@ -8,8 +8,9 @@ public class Collection_Interface {
         List<Integer> numbers = new ArrayList<>();
 //        type of interface <Datatype> variable name = new class <>() ;
 
-        numbers.add(10);
+
         numbers.add(20);
+        numbers.add(10);
         numbers.add(30);
         numbers.add(10);
 
