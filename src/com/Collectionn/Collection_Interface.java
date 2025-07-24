@@ -14,7 +14,12 @@ public class Collection_Interface {
         numbers.add(30);
         numbers.add(10);
 
+        numbers.add(2,6);
+        System.out.println(numbers);
+
         numbers.remove(2);
+
+        System.out.println(numbers);
         boolean b = numbers.isEmpty();
         System.out.println(b);
 
@@ -22,5 +27,20 @@ public class Collection_Interface {
         System.out.println(present);
 
         System.out.println(numbers);
+
+        int size = numbers.size();
+        System.out.println(size);
+
+        int getIndex = numbers.get(0);
+        System.out.println(getIndex);
+
+         numbers.set(2,5);
+        System.out.println(numbers);
+
+        int indexOf = numbers.indexOf(10);
+        System.out.println(indexOf);
+
+        int lastIndexOf = numbers.lastIndexOf(10);
+        System.out.println(lastIndexOf);
     }
 }
