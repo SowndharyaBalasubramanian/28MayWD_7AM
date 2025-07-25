@@ -42,5 +42,9 @@ public class Collection_Interface {
 
         int lastIndexOf = numbers.lastIndexOf(10);
         System.out.println(lastIndexOf);
+
+        for(int i = 0; i< numbers.size();i++){
+            System.out.println(numbers.get(i));
+        }
     }
 }
