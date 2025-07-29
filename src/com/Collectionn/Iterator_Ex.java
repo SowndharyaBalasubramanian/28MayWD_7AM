@@ -16,7 +16,9 @@ public class Iterator_Ex {
 
         while(itr.hasNext()){
             String name = itr.next();
+
             System.out.println(name);
         }
+
     }
 }
