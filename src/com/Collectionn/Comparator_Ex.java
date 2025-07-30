@@ -12,7 +12,7 @@ public class Comparator_Ex {
         list.add(new Employe(3,"Moni", 55000d));
         list.add(new Employe(1,"Mohan", 50000d));
 
-        Collections.sort(list,new IdComparator());
+        Collections.sort(list,new NameComparator());
 
         for(Employe e : list){
             System.out.println(e.id + " " + e.name + " " + e.salary);
