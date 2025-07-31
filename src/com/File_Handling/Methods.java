@@ -45,13 +45,41 @@ public class Methods {
 //        }
 
        //delete
+//        try{
+//            if(file.delete()){
+//                System.out.println("file deleted successfully");
+//            }else
+//                System.out.println("File not exists");
+//        } catch (Exception e) {
+//            System.out.println();
+//        }
+
+
+        //bufferWriter
+
         try{
-            if(file.delete()){
-                System.out.println("file deleted successfully");
-            }else
-                System.out.println("File not exists");
+            BufferedWriter bw = new BufferedWriter(new FileWriter("Sample.txt"));
+            bw.write("Good morning");
+            bw.newLine();
+            bw.append("Everyone");
+            bw.close();
         } catch (Exception e) {
-            System.out.println();
+            System.out.println(e);
+        }
+
+        //bufferedreader
+        try{
+            BufferedReader br = new BufferedReader(new FileReader("Sample.txt"));
+            String line;
+
+            while ((line = br.readLine()) != null){
+                System.out.println(line);
+            }
+
+            br.close();
+            System.out.println("completed");
+        } catch (Exception e) {
+            System.out.println(e);
         }
 
     }
